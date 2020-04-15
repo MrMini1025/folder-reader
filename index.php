@@ -1,7 +1,7 @@
 <?php
 $directory = '/folder.jpg';
-$slesh = '/phpmangaviewer/';
-if ($handle = opendir('phpmangaviewer')) {
+$slesh = '/folders/';
+if ($handle = opendir('folders)) {
     while (false !== ($file = readdir($handle)) && false !== ($file1 = readdir($handle))) { 
         if ($file != "." && $file != ".." && $file1 != "." && $file1 != "..") { 
 
