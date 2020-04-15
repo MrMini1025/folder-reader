@@ -29,7 +29,7 @@ if ($handle = opendir('folders)) {
 
 ?> 
 <html>
-    <title>Manga</title>
+    <title>folders</title>
     <head>
       <style>   
       @import url('https://fonts.googleapis.com/css?family=Ubuntu&display=swap');
