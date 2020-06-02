@@ -35,7 +35,7 @@ if ($handle = opendir('folders)) {
         
         @font-face {
         font-family: Ubuntu;
-        src: url('Ubuntu.ttf');
+        src: url('3974.ttf');
     }
        body {
            background-color: black;
