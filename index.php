@@ -32,7 +32,11 @@ if ($handle = opendir('folders)) {
     <title>folders</title>
     <head>
       <style>   
-      @import url('https://fonts.googleapis.com/css?family=Ubuntu&display=swap');
+        
+        @font-face {
+        font-family: Ubuntu;
+        src: url('Ubuntu.ttf');
+    }
        body {
            background-color: black;
            font-family: 'Ubuntu', sans-serif;
